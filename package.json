@@ -1,0 +1,20 @@
+{
+  "name": "roc-chat-status",
+  "productName": "ROC Chat Status",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "repository": "user/repo",
+  "author": {
+    "name": "Arnaud P. Crowther",
+    "email": "arnaud.crowther@dynatrace.com",
+    "url": ""
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "request": "^2.83.0"
+  }
+}
