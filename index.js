@@ -7,7 +7,7 @@ ufoOff()
 //show loading anim
 ufoLoading()
 
-//turn off again after 3 seconds
+// turn off again after 3 seconds
 setTimeout(function() {
   ufoOff()
 },3000)
@@ -75,5 +75,7 @@ function ufoRed() {
 
 
 
-// request('http://192.168.220.137/api?top_bg=00ff00&bottom_bg=00ff00', function (error, response, body) {});//simple green
-// request('http://192.168.220.137/api?top_bg=ff0000&bottom_bg=ff0000', function (error, response, body) {});//simple red
+
+// http://192.168.220.137/api?top_bg=00ff00&bottom_bg=00ff00 //simple green
+// http://192.168.220.137/api?top_bg=ff0000&bottom_bg=ff0000 //simple red
+// http://192.168.220.137/api?top_init=0&top_bg=000000&bottom_init=0&bottom_bg=000000 //off
